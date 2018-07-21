@@ -1,0 +1,72 @@
+.spectator-film-name {
+	font-size: 40px;
+}
+.spectator-film-rest .x-form-item-label-default, .spectator-film-rest .x-form-display-field-default {
+	font-size: 16px;
+}
+.spectator-film-rest .x-form-display-field-default {
+	font-weight: bold;
+}
+/* Show info block */
+.spectator-show-info .x-form-item-label-default, .spectator-show-info .x-form-display-field-default {
+	font-size: 16px;
+}
+.spectator-show-info .x-form-display-field-default {
+	color: darkblue;
+	font-weight: bold;
+}
+
+/* Seats */
+.seat-status-busy {
+	background: red !important;
+}
+.legend-block-spectator .seat-legend {
+	height: 36px;
+	line-height: 30px;
+	font-size: 16px;
+	float: right;
+	width: 150px;
+}
+.legend-block-spectator .seat-legend i {
+	width: 30px;
+	height: 30px;
+}
+.spectator .seat-status-selected {
+	background: yellow !important;
+	color: black;
+}
+
+.spectator-sel-items-cost-value {
+	color: sienna;
+	font-size: 45px;
+}
+
+.spectator-sel-items-summary {
+	font-weight: bold;
+	color: #04408c;
+	font-size: 25px;
+}
+
+.legend-block-spectator .zone-legend__text {
+	float: right;
+	width: 78%;
+	padding-left: 8px;
+	padding-top: 8px;
+}
+
+.legend-block-spectator .zone-legend__text__no-price {
+	float: right;
+	width: 78%;
+	padding-left: 6px;
+	padding-top: 16px;
+}
+
+.legend-block-spectator .zone-legend__text__title {
+	font-size: 14.5px;
+	line-height: 1px;
+}
+
+.legend-block-spectator .zone-legend__text__price {
+	font-size: 20px;
+	line-height: 30px;
+}

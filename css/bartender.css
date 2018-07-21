@@ -1,0 +1,202 @@
+#menuView .x-panel-body{
+    background: white;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+#menuView .thumb{
+    background: #dddddd;
+    padding: 3px;
+    padding-bottom: 0;
+}
+
+.x-quirks #menuView .thumb {
+    padding-bottom: 3px;
+}
+
+#menuView .thumb img{
+    height: 60px;
+    width: 80px;
+}
+#menuView .frame{
+    width: 100%;
+    height: 80%;
+}
+#menuView .row{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+#menuView .thumb-wrap{
+    cursor: pointer;
+    margin: 4px 0 0 2px;
+    width: 30%;
+    max-width: 350px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+
+    outline: none !important;
+
+    border: solid #E0E0E0 1px;
+
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#menuView .thumb-wrap:hover {
+    border: solid red 1px;
+}
+
+#menuView .thumb-wrap:active {
+    border: solid black 1px;
+}
+
+#menuView .thumb-wrap span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 86px; /* for ie to ensure that the text is centered */
+}
+
+#menuView .x-item-over{
+    border:1px solid #dddddd;
+    padding: 4px;
+}
+
+#menuView .x-item-selected{
+    border:1px solid #99bbe8;
+    padding: 4px;
+}
+
+#menuView .x-item-selected .thumb{
+    background:transparent;
+}
+
+#menuView .product_name {
+    font: 28px Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    padding: 5px 10px;
+    color: white;
+}
+
+#menuView .product_name:empty {
+    display: none;
+}
+#menuView .product_cost:empty {
+    display: none;
+}
+#menuView .product_cost {
+    font: 24px Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    padding: 5px 10px;
+    color: white;
+}
+
+#menuView {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.icon-bar-pay {
+    background: url(icons/pay-icon.png);
+}
+
+.icon-bar-cancel-pay {
+    background: url(icons/cancel-pay-icon.png);
+}
+
+.icon-bar-plus {
+    background: url(icons/plus-icon.png);
+}
+
+.icon-bar-minus {
+    background: url(icons/minus-icon.png);
+}
+
+.icon-bar-remove {
+    background: url(icons/remove-icon.png);
+}
+
+.icon-bar-back-pos {
+    background: url(icons/back-pos.png);
+}
+
+#pathView {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#pathView .row {
+    width: 100%;
+}
+
+#pathView .separator {
+    display: inline;
+    padding: 0 0 0 5px;
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#pathView .thumb-wrap{
+    position: relative;
+    padding: 5px 8px;
+    display: inline;
+
+    cursor: pointer;
+    border: solid black 1px;
+
+    width: 15%;
+    min-width: 220px;
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+
+    outline: none !important;
+}
+
+#pathView .select:hover {
+    background-color: silver;
+}
+
+.upload-empty-text::-webkit-input-placeholder {
+    color: black;
+}
+
+.bar-search-card-result {
+    width: 100%;
+    text-align: center;
+}
+
+.bar-search-card-result__cell {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px 8px;
+}

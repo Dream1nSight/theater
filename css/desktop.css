@@ -1,0 +1,35 @@
+/* Chrome 43 bug fix */
+.x-form-text {
+	display: inline;
+}
+
+/* Time widget */
+.desktop-time {
+	margin: 5px 5px 0 5px;
+	text-shadow: 0 0 2px #555;
+}
+.desktop-time .time {
+	font-size: 27px;
+	font-weight: bold;
+	color: #04408C;
+	font-family: monospace;
+}
+.desktop-time .date {
+	font-size: 12px;
+	text-align: center;
+	color: darkblue;
+}
+.desktop-time .ticker {
+	-webkit-animation: blink 1.5s linear infinite;
+	animation: ticker 1.5s linear infinite;
+}
+@-webkit-keyframes ticker {
+	50%  { opacity: 1; }
+	51%  { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes ticker {
+	50%  { opacity: 1; }
+	51%  { opacity: 0; }
+	100% { opacity: 0; }
+}

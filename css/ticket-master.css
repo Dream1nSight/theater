@@ -1,0 +1,395 @@
+/* ExtJS override */
+.x-panel-default-framed {
+	border-radius: 0;
+}
+
+#omni_widget_iframe_1930-3wub9tfn {
+	bottom: 5px !important;
+	right: 95px !important;
+}
+/* AtEngine override */
+.desktop-time {
+	margin: -2px 0 0 0;
+}
+.desktop-time .date {
+	margin-top: -5px;
+}
+
+/* Admin icons */
+.grid-cell-icon {
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+.icon-book-type {
+	background: url(icons/book-type-16.png);
+}
+.icon-discount {
+	background: url(icons/discount-16.png);
+}
+.icon-event {
+	background: url(icons/event-16.png);
+}
+.icon-show {
+	background: url(icons/show-16.png);
+}
+.icon-price-schemes {
+	background: url(icons/price-schemes-16.png);
+}
+.icon-ticket-types {
+	background: url(icons/ticket-types-16.png);
+}
+.icon-price-rule {
+	background: url(icons/price-rule-16.png);
+}
+.icon-users {
+	background: url(icons/users-16.png);
+}
+.icon-logout {
+	background: url(icons/logout-16.png);
+}
+.icon-start-shift {
+	background: url(icons/start-shift-16.png);
+}
+.icon-stop-shift {
+	background: url(icons/stop-shift-16.png);
+}
+.icon-spectator-monitor {
+	background: url(icons/spectator-monitor-16.png);
+}
+.icon-printers {
+	background: url(icons/printers.png);
+}
+.icon-reports {
+	background: url(icons/reports.png);
+}
+.icon-tickets {
+	background: url(icons/tickets.png);
+}
+
+.icon-del {
+	background: url(icons/del.png);
+}
+
+.icon-clients {
+	background: url(icons/clients.png);
+}
+
+.icon-star {
+	background: url(icons/star.png);
+}
+
+.icon-snacks {
+	background: url(icons/snacks.png);
+}
+
+.icon-templates {
+	background: url(icons/template.png);
+}
+
+
+/* Hall view - shows */
+.hall-show-item-wrapper {
+	border-bottom: 1px solid #d5e2f2;
+	cursor: pointer;
+	padding: 2px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.hall-show-item:hover, .hall-show-item-selected .hall-show-item {
+	background: #d5e2f2;
+}
+.hall-show-item {
+	cursor: pointer;
+	color: #04408C;
+	font-size: 12px;
+	font-weight: bold;
+}
+.hall-show-item .hall-show-item-name {
+	color: black;
+}
+.hall-show-item .hall-show-item-hall {
+	color: sienna;
+	float: right;
+}
+.hall-show-item-formats {
+	margin-left: 2px;
+}
+.hall-show-item-format {
+	border: 1px solid #bbb;
+	background: #f0f0f0;
+	border-radius: 5px;
+	font-size: 10px;
+	padding: 0 2px;
+	margin: 0 1px;
+}
+
+/* Hall view - actions */
+.hall-sel-items-wrapper {
+	line-height: 27px;
+}
+.hall-sel-item:hover {
+	background: #d5e2f2;
+}
+.hall-sel-item-row, .hall-sel-item-num, .hall-sel-item-cost, .hall-sel-item-type {
+	font-weight: bold;
+	font-size: 14px;
+	color: #04408c;
+}
+.hall-sel-item-cost {
+	color: sienna;
+}
+.hall-sel-items-summary {
+	font-weight: bold;
+	color: #04408c;
+	font-size: 14px;
+}
+.hall-sel-items-cost-value {
+	color: sienna;
+}
+
+/* Hall view - hall */
+.x-panel.panel-hall {
+	overflow: visible;
+}
+.x-panel-body.panel-hall-wrapper {
+	overflow: visible;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.hb-screen {
+	background: yellow;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px #aaa;
+	text-align: center;
+	height: 20px;
+	line-height: 19px;
+	font-size: 16px;
+	box-shadow: 0 0 3px #ccc;
+}
+.hb-row-num {
+	font-size: 20px;
+}
+.hb-row-num-right {
+	text-align: right;
+}
+.hb-seat {
+	cursor: pointer;
+}
+.hb-seat:hover {
+	background: #eee;
+}
+.hb-seat, .seat-legend i {
+	border-radius: 5px;
+	border: 1px solid #999;
+}
+.hb-seat-text {
+	text-align: center;
+	font-weight: bold;
+}
+.hb-seat-info {
+	display: none;
+	position: absolute;
+	z-index: 10000;
+	top: 0;
+	left: 110%;
+	padding: 3px;
+	border-radius: 4px;
+	border: 1px solid #999;
+	background: #eee;
+	white-space: nowrap;
+	box-shadow: 0 0 10px #777;
+	color: #000;
+}
+.hb-seat:hover .hb-seat-info {
+	display: block;
+}
+.hb-seat:hover .hb-seat-info:hover {
+	display: none;
+}
+
+.seat-status-free {
+	background: lightgreen;
+	box-shadow: 0 0 5px #999;
+}
+.seat-status-disabled {
+	background: gray;
+}
+.seat-status-prebook {
+	background: #efe28d !important;
+}
+.seat-status-book {
+	background: orange;
+}
+.seat-status-book-ext {
+	background: yellow !important;
+}
+.seat-status-sold {
+	background: lightcoral !important;
+}
+.seat-status-sold-ext {
+	background: darkred !important;
+	color: white;
+}
+.seat-status-selected {
+	background: #04408c !important;
+	box-shadow: 0 0 8px #999;
+	color: #fff;
+}
+
+.legend-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.zone-legend {
+	width: 135px;
+	height: 24px;
+	/*line-height: 20px;*/
+	margin: 3px 5px 0 0;
+}
+
+.zone-legend i {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+	margin-right: 3px;
+}
+
+.zone-legend__color {
+	float: left;
+	width: 22%;
+}
+
+.zone-legend__text {
+	float: right;
+	width: 78%;
+}
+
+.zone-legend__text__title {
+	font-size: 11.5px;
+	line-height: 7px;
+}
+
+.zone-legend__text__price {
+	font-size: 10px;
+	line-height: 18px;
+}
+
+.seat-legend {
+	width: 122px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 0 3px 0;
+}
+.seat-legend i {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+	margin-right: 3px;
+}
+
+/** Hall - book view */
+.hall-total-price-label .x-form-item-label,
+.hall-total-price-label .x-form-display-field {
+	font-weight: bold;
+}
+
+.search-card-result {
+	width: 100%;
+	text-align: center;
+}
+
+.search-card-result__cell {
+	text-align: center;
+	display: inline-block;
+	margin: 0 20px 8px;
+}
+
+.hall-stats {
+	width: 100%;
+	text-align: center;
+}
+
+.hall-stats__cell {
+	text-align: center;
+	display: inline-block;
+	margin: 0 30px 8px;
+	font-size: 14px;
+}
+
+.hall-stats__cell__count {
+	font-size: 16px;
+}
+
+.client-info-cell {
+	text-align: center;
+	margin: 0 0 8px;
+}
+
+
+/* Seat multiselect*/
+.ghost-select {
+	display: none;
+	z-index: 9000;
+	position: absolute !important;
+	cursor: default !important;
+}
+
+
+
+#big-ghost{
+	background-color:rgba(239, 161, 2, 0.6);
+	border:1px solid orange;
+	position:absolute;
+}
+
+/*.ghost-select > div {
+  position: absolute;
+  left: 0px !important;
+  top: 2px !important;
+}*/
+
+.ghost-active {
+	display: block !important;
+}
+
+.ghost-select > span {
+	background-color: rgba(239, 161, 2, 0.6);
+	border: 1px solid orange;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#grid {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#intercom-launcher {
+	right: 120px !important;
+	bottom: -5px !important;
+	transform: scale(0.75) !important;
+}
+
+#carrotquest-messenger-collapsed {
+	right: 90px !important;
+	bottom: -14px !important;
+	transform: scale(0.8);
+}
+
+.jPicker.Container {
+	z-index: 1000000 !important;
+}

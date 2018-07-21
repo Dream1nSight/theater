@@ -1,0 +1,9 @@
+.ticket-tpl-canvas {
+	margin-top: 30px;
+	background: white;
+	display: inline-block;
+}
+
+.ticket-tpl-upload-empty-text::-webkit-input-placeholder {
+	color: black;
+}
