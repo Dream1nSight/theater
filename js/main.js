@@ -513,10 +513,6 @@ function onSecondCtrlButton(e)
     {
 	    changeTradeState(TSTATE.REFUND_RESERVE);
     }
-    else if (_TradeState === TSTATE.REFUND_RESERVE)
-    {
-	    changeTradeState(TSTATE.REFUND_RESERVE);
-    }
     else if (_TradeState === TSTATE.SALE ||
 	    _TradeState === TSTATE.RESERVE ||
 	    _TradeState === TSTATE.REFUND_SALE ||
