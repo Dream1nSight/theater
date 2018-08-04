@@ -92,6 +92,8 @@ window.addEventListener("load", function()
 	    loadSeatsState(i.slice(STORAGE_SEATS_KEY.length));
 
 	refreshSeatsList(0);
+
+	document.querySelector("#ticket-price").value = TicketPrice;
 });
 
 window.UpdateSalesSum = function()
@@ -690,4 +692,9 @@ function onClearCurrentList()
 		saveSeatsState(getCurrentListName());
 		onListsItemChange();
 	}
+}
+
+function onSetTicketPrice() {
+    TicketPrice = Number(document.querySelector("#ticket-price").value);
+    UpdateSalesSum();
 }
